@@ -4,7 +4,7 @@ Using a Xml streaming library to read the kml file and convert the hierarchal da
 
 ### Installation ###
 
-[![NPM](https://img.shields.io/npm/v/@ngageoint/geopackage-geojson-js.svg)](https://www.npmjs.com/package/@ngageoint/geopackage-geojson-js)
+[![NPM](https://img.shields.io/npm/v/@ngageoint/geopackage-kml-js.svg)](https://www.npmjs.com/package/@ngageoint/geopackage-kml-js)
 
 ```sh
 $ npm install @ngageoint/geopackage-kml-js
@@ -40,6 +40,7 @@ $ npm install @ngageoint/geopackage-kml-js
 - ExtendedData
 ---
 ### Does not support but plan on supporting
+- [ ] Network Links
 - [ ] ScreenOverlays
 - [ ] Folder and Document structure
 - [ ] PhotoOverlays
