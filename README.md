@@ -16,6 +16,20 @@ $ npm install @ngageoint/geopackage-kml-js
 ./cli /path/to/file/to/convert.kml /path/to/file/to/create.gpkg
 ```
 
+### Javascript
+```javascript
+const { KMLToGeoPackage } = require('@ngageoint/geopackage-kml-js');
+const kmlFile = './test.kml';
+const geoPackageFile = './test.gpkg';
+const tableName = 'features';
+
+// Convert CSV to GeoPackage feature table
+const converter = new KMLToGeoPackage();
+converter.convert({ kmlOrKmzPath: kmlFile, geoPackage: geoPackageFile, tableName: tableName }).then(() => {
+  console.log('File conversion complete');
+  console.log('Converted %s to %s', kmlFile, geoPackageFile);
+});
+```
 ---
 ### Currently Supports
 - Placemark tags with and without coordinates
