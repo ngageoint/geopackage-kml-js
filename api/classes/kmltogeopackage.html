@@ -1,0 +1,987 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>KMLToGeoPackage | @ngageoint/geopackage-kml-js - v4.1.0</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../assets/css/main.css">
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="../assets/js/search.js" data-base="..">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="../index.html" class="title">@ngageoint/geopackage-kml-js - v4.1.0</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+							<input type="checkbox" id="tsd-filter-externals" checked />
+							<label class="tsd-widget" for="tsd-filter-externals">Externals</label>
+							<input type="checkbox" id="tsd-filter-only-exported" />
+							<label class="tsd-widget" for="tsd-filter-only-exported">Only exported</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<ul class="tsd-breadcrumb">
+				<li>
+					<a href="../globals.html">Globals</a>
+				</li>
+				<li>
+					<a href="kmltogeopackage.html">KMLToGeoPackage</a>
+				</li>
+			</ul>
+			<h1>Class KMLToGeoPackage</h1>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Convert KML file to GeoPackages.</p>
+					</div>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-hierarchy">
+				<h3>Hierarchy</h3>
+				<ul class="tsd-hierarchy">
+					<li>
+						<span class="target">KMLToGeoPackage</span>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel-group tsd-index-group">
+				<h2>Index</h2>
+				<section class="tsd-panel tsd-index-panel">
+					<div class="tsd-index-content">
+						<section class="tsd-index-section ">
+							<h3>Constructors</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-constructor tsd-parent-kind-class"><a href="kmltogeopackage.html#constructor" class="tsd-kind-icon">constructor</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Properties</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="kmltogeopackage.html#hasmultigeometry" class="tsd-kind-icon">has<wbr>Multi<wbr>Geometry</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="kmltogeopackage.html#hasstyles" class="tsd-kind-icon">has<wbr>Styles</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="kmltogeopackage.html#iconmap" class="tsd-kind-icon">icon<wbr>Map</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="kmltogeopackage.html#iconmappair" class="tsd-kind-icon">icon<wbr>Map<wbr>Pair</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="kmltogeopackage.html#iconrowmap" class="tsd-kind-icon">icon<wbr>Row<wbr>Map</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="kmltogeopackage.html#iconurlmap" class="tsd-kind-icon">icon<wbr>Url<wbr>Map</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="kmltogeopackage.html#numberofgroundoverlays" class="tsd-kind-icon">number<wbr>OfGround<wbr>Over<wbr>Lays</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="kmltogeopackage.html#numberofplacemarks" class="tsd-kind-icon">number<wbr>OfPlacemarks</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="kmltogeopackage.html#properties" class="tsd-kind-icon">properties</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="kmltogeopackage.html#stylemap" class="tsd-kind-icon">style<wbr>Map</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="kmltogeopackage.html#stylemappair" class="tsd-kind-icon">style<wbr>Map<wbr>Pair</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="kmltogeopackage.html#stylerowmap" class="tsd-kind-icon">style<wbr>Row<wbr>Map</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="kmltogeopackage.html#styleurlmap" class="tsd-kind-icon">style<wbr>Url<wbr>Map</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="kmltogeopackage.html#zipfilemap" class="tsd-kind-icon">zip<wbr>File<wbr>Map</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Methods</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="kmltogeopackage.html#_calculatetrueextentforfeaturetable" class="tsd-kind-icon">_calculate<wbr>True<wbr>Extent<wbr>For<wbr>Feature<wbr>Table</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="kmltogeopackage.html#_updateboundingboxforfeaturetable" class="tsd-kind-icon">_update<wbr>Bounding<wbr>Box<wbr>For<wbr>Feature<wbr>Table</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="kmltogeopackage.html#addkmldatatogeopackage" class="tsd-kind-icon">addKMLData<wbr>ToGeo<wbr>Package</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="kmltogeopackage.html#convert" class="tsd-kind-icon">convert</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="kmltogeopackage.html#convertkmlorkmztogeopackage" class="tsd-kind-icon">convertKMLOrKMZTo<wbr>Geopackage</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="kmltogeopackage.html#convertkmltogeopackage" class="tsd-kind-icon">convertKMLTo<wbr>Geo<wbr>Package</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="kmltogeopackage.html#convertkmztogeopackage" class="tsd-kind-icon">convertKMZTo<wbr>Geo<wbr>Package</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="kmltogeopackage.html#createoropengeopackage" class="tsd-kind-icon">create<wbr>OrOpen<wbr>Geo<wbr>Package</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="kmltogeopackage.html#downloadfile" class="tsd-kind-icon">download<wbr>File</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="kmltogeopackage.html#getmetadatakml" class="tsd-kind-icon">get<wbr>Meta<wbr>DataKML</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="kmltogeopackage.html#setupstylekml" class="tsd-kind-icon">set<wbr>UpStyleKML</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="kmltogeopackage.html#setuptablekml" class="tsd-kind-icon">set<wbr>UpTableKML</a></li>
+							</ul>
+						</section>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Constructors</h2>
+				<section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class">
+					<a name="constructor" class="tsd-anchor"></a>
+					<h3>constructor</h3>
+					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">new KMLTo<wbr>Geo<wbr>Package<span class="tsd-signature-symbol">(</span>optionsUser<span class="tsd-signature-symbol">?: </span><a href="../interfaces/kmlconverteroptions.html" class="tsd-signature-type">KMLConverterOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="kmltogeopackage.html" class="tsd-signature-type">KMLToGeoPackage</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/ngageoint/geopackage-kml-js/blob/a8ce1ae/index.ts#L75">index.ts:75</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5><span class="tsd-flag ts-flagDefault value">Default value</span> optionsUser: <a href="../interfaces/kmlconverteroptions.html" class="tsd-signature-type">KMLConverterOptions</a><span class="tsd-signature-symbol"> =&nbsp;{}</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="kmltogeopackage.html" class="tsd-signature-type">KMLToGeoPackage</a></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Properties</h2>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="hasmultigeometry" class="tsd-anchor"></a>
+					<h3>has<wbr>Multi<wbr>Geometry</h3>
+					<div class="tsd-signature tsd-kind-icon">has<wbr>Multi<wbr>Geometry<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/ngageoint/geopackage-kml-js/blob/a8ce1ae/index.ts#L63">index.ts:63</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="hasstyles" class="tsd-anchor"></a>
+					<h3>has<wbr>Styles</h3>
+					<div class="tsd-signature tsd-kind-icon">has<wbr>Styles<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/ngageoint/geopackage-kml-js/blob/a8ce1ae/index.ts#L62">index.ts:62</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="iconmap" class="tsd-anchor"></a>
+					<h3>icon<wbr>Map</h3>
+					<div class="tsd-signature tsd-kind-icon">icon<wbr>Map<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Map</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">&gt;</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/ngageoint/geopackage-kml-js/blob/a8ce1ae/index.ts#L69">index.ts:69</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="iconmappair" class="tsd-anchor"></a>
+					<h3>icon<wbr>Map<wbr>Pair</h3>
+					<div class="tsd-signature tsd-kind-icon">icon<wbr>Map<wbr>Pair<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Map</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/ngageoint/geopackage-kml-js/blob/a8ce1ae/index.ts#L72">index.ts:72</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="iconrowmap" class="tsd-anchor"></a>
+					<h3>icon<wbr>Row<wbr>Map</h3>
+					<div class="tsd-signature tsd-kind-icon">icon<wbr>Row<wbr>Map<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Map</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/ngageoint/geopackage-kml-js/blob/a8ce1ae/index.ts#L71">index.ts:71</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="iconurlmap" class="tsd-anchor"></a>
+					<h3>icon<wbr>Url<wbr>Map</h3>
+					<div class="tsd-signature tsd-kind-icon">icon<wbr>Url<wbr>Map<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Map</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">&gt;</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/ngageoint/geopackage-kml-js/blob/a8ce1ae/index.ts#L70">index.ts:70</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="numberofgroundoverlays" class="tsd-anchor"></a>
+					<h3>number<wbr>OfGround<wbr>Over<wbr>Lays</h3>
+					<div class="tsd-signature tsd-kind-icon">number<wbr>OfGround<wbr>Over<wbr>Lays<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/ngageoint/geopackage-kml-js/blob/a8ce1ae/index.ts#L75">index.ts:75</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="numberofplacemarks" class="tsd-anchor"></a>
+					<h3>number<wbr>OfPlacemarks</h3>
+					<div class="tsd-signature tsd-kind-icon">number<wbr>OfPlacemarks<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/ngageoint/geopackage-kml-js/blob/a8ce1ae/index.ts#L74">index.ts:74</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="properties" class="tsd-anchor"></a>
+					<h3>properties</h3>
+					<div class="tsd-signature tsd-kind-icon">properties<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Set</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/ngageoint/geopackage-kml-js/blob/a8ce1ae/index.ts#L73">index.ts:73</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="stylemap" class="tsd-anchor"></a>
+					<h3>style<wbr>Map</h3>
+					<div class="tsd-signature tsd-kind-icon">style<wbr>Map<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Map</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">&gt;</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/ngageoint/geopackage-kml-js/blob/a8ce1ae/index.ts#L65">index.ts:65</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="stylemappair" class="tsd-anchor"></a>
+					<h3>style<wbr>Map<wbr>Pair</h3>
+					<div class="tsd-signature tsd-kind-icon">style<wbr>Map<wbr>Pair<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Map</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/ngageoint/geopackage-kml-js/blob/a8ce1ae/index.ts#L68">index.ts:68</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="stylerowmap" class="tsd-anchor"></a>
+					<h3>style<wbr>Row<wbr>Map</h3>
+					<div class="tsd-signature tsd-kind-icon">style<wbr>Row<wbr>Map<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Map</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/ngageoint/geopackage-kml-js/blob/a8ce1ae/index.ts#L67">index.ts:67</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="styleurlmap" class="tsd-anchor"></a>
+					<h3>style<wbr>Url<wbr>Map</h3>
+					<div class="tsd-signature tsd-kind-icon">style<wbr>Url<wbr>Map<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Map</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">&gt;</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/ngageoint/geopackage-kml-js/blob/a8ce1ae/index.ts#L66">index.ts:66</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="zipfilemap" class="tsd-anchor"></a>
+					<h3>zip<wbr>File<wbr>Map</h3>
+					<div class="tsd-signature tsd-kind-icon">zip<wbr>File<wbr>Map<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Map</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/ngageoint/geopackage-kml-js/blob/a8ce1ae/index.ts#L64">index.ts:64</a></li>
+						</ul>
+					</aside>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Methods</h2>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="_calculatetrueextentforfeaturetable" class="tsd-anchor"></a>
+					<h3>_calculate<wbr>True<wbr>Extent<wbr>For<wbr>Feature<wbr>Table</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">_calculate<wbr>True<wbr>Extent<wbr>For<wbr>Feature<wbr>Table<span class="tsd-signature-symbol">(</span>gp<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span>, tableName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/ngageoint/geopackage-kml-js/blob/a8ce1ae/index.ts#L96">index.ts:96</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>gp: <span class="tsd-signature-type">any</span></h5>
+								</li>
+								<li>
+									<h5>tableName: <span class="tsd-signature-type">any</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="_updateboundingboxforfeaturetable" class="tsd-anchor"></a>
+					<h3>_update<wbr>Bounding<wbr>Box<wbr>For<wbr>Feature<wbr>Table</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">_update<wbr>Bounding<wbr>Box<wbr>For<wbr>Feature<wbr>Table<span class="tsd-signature-symbol">(</span>gp<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span>, tableName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/ngageoint/geopackage-kml-js/blob/a8ce1ae/index.ts#L157">index.ts:157</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>gp: <span class="tsd-signature-type">any</span></h5>
+								</li>
+								<li>
+									<h5>tableName: <span class="tsd-signature-type">any</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="addkmldatatogeopackage" class="tsd-anchor"></a>
+					<h3>addKMLData<wbr>ToGeo<wbr>Package</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">addKMLData<wbr>ToGeo<wbr>Package<span class="tsd-signature-symbol">(</span>kmlData<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">PathLike</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Uint8Array</span>, geopackage<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">GeoPackage</span>, defaultStyles<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">FeatureTableStyles</span>, tableName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, progressCallback<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/ngageoint/geopackage-kml-js/blob/a8ce1ae/index.ts#L473">index.ts:473</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Reads the KML file and extracts Geometric data and matches styles with the Geometric data.
+									Also read the Ground Overlays.</p>
+								</div>
+								<dl class="tsd-comment-tags">
+									<dt>memberof</dt>
+									<dd><p>KMLToGeoPackage</p>
+									</dd>
+								</dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>kmlData: <span class="tsd-signature-type">PathLike</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Uint8Array</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Path to KML file or KML Data</p>
+									</div>
+								</li>
+								<li>
+									<h5>geopackage: <span class="tsd-signature-type">GeoPackage</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>GeoPackage instance</p>
+									</div>
+								</li>
+								<li>
+									<h5>defaultStyles: <span class="tsd-signature-type">FeatureTableStyles</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Feature Table Style Object</p>
+									</div>
+								</li>
+								<li>
+									<h5>tableName: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Name of Main table for Geometry</p>
+									</div>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> progressCallback: <span class="tsd-signature-type">Function</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="convert" class="tsd-anchor"></a>
+					<h3>convert</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">convert<span class="tsd-signature-symbol">(</span>options<span class="tsd-signature-symbol">?: </span><a href="../interfaces/kmlconverteroptions.html" class="tsd-signature-type">KMLConverterOptions</a>, progressCallback<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">GeoPackage</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/ngageoint/geopackage-kml-js/blob/a8ce1ae/index.ts#L207">index.ts:207</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Converts KML and KMZ to GeoPackages.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> options: <a href="../interfaces/kmlconverteroptions.html" class="tsd-signature-type">KMLConverterOptions</a></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> progressCallback: <span class="tsd-signature-type">Function</span></h5>
+									<div class="tsd-comment tsd-typography">
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">GeoPackage</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="convertkmlorkmztogeopackage" class="tsd-anchor"></a>
+					<h3>convertKMLOrKMZTo<wbr>Geopackage</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">convertKMLOrKMZTo<wbr>Geopackage<span class="tsd-signature-symbol">(</span>kmlOrKmzPath<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">PathLike</span>, isKMZ<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span>, geopackage<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">GeoPackage</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span>, tableName<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span>, kmlOrKmzData<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">Uint8Array</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span>, progressCallback<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">GeoPackage</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/ngageoint/geopackage-kml-js/blob/a8ce1ae/index.ts#L229">index.ts:229</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Determines the function calls depending on the type of file and the environment it is in</p>
+								</div>
+								<dl class="tsd-comment-tags">
+									<dt>memberof</dt>
+									<dd><p>KMLToGeoPackage</p>
+									</dd>
+								</dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>kmlOrKmzPath: <span class="tsd-signature-type">PathLike</span></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> isKMZ: <span class="tsd-signature-type">boolean</span></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> geopackage: <span class="tsd-signature-type">GeoPackage</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> tableName: <span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> kmlOrKmzData: <span class="tsd-signature-type">Uint8Array</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> progressCallback: <span class="tsd-signature-type">Function</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">GeoPackage</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<p>Promise of a GeoPackage</p>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="convertkmltogeopackage" class="tsd-anchor"></a>
+					<h3>convertKMLTo<wbr>Geo<wbr>Package</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">convertKMLTo<wbr>Geo<wbr>Package<span class="tsd-signature-symbol">(</span>kmlData<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">PathLike</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Uint8Array</span>, geopackage<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">GeoPackage</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span>, tableName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, progressCallback<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">GeoPackage</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/ngageoint/geopackage-kml-js/blob/a8ce1ae/index.ts#L357">index.ts:357</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Takes a KML file and does a 2 pass method to exact the features and styles and inserts those item properly into a geopackage.</p>
+								</div>
+								<dl class="tsd-comment-tags">
+									<dt>memberof</dt>
+									<dd><p>KMLToGeoPackage</p>
+									</dd>
+								</dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>kmlData: <span class="tsd-signature-type">PathLike</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Uint8Array</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Path to KML file or Data of KML file</p>
+									</div>
+								</li>
+								<li>
+									<h5>geopackage: <span class="tsd-signature-type">GeoPackage</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>String name or instance of Geopackage to use</p>
+									</div>
+								</li>
+								<li>
+									<h5>tableName: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Name of table with geometry</p>
+									</div>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> progressCallback: <span class="tsd-signature-type">Function</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">GeoPackage</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<p>Promise of a Geopackage</p>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="convertkmztogeopackage" class="tsd-anchor"></a>
+					<h3>convertKMZTo<wbr>Geo<wbr>Package</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">convertKMZTo<wbr>Geo<wbr>Package<span class="tsd-signature-symbol">(</span>kmzData<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">PathLike</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Uint8Array</span>, geopackage<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">GeoPackage</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span>, tableName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, progressCallback<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">GeoPackage</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/ngageoint/geopackage-kml-js/blob/a8ce1ae/index.ts#L268">index.ts:268</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Unzips and stores data from a KMZ file in the current directory or in a Map</p>
+								</div>
+								<dl class="tsd-comment-tags">
+									<dt>memberof</dt>
+									<dd><p>KMLToGeoPackage</p>
+									</dd>
+								</dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>kmzData: <span class="tsd-signature-type">PathLike</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Uint8Array</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Path to KMZ file or Data of the KMZ file</p>
+									</div>
+								</li>
+								<li>
+									<h5>geopackage: <span class="tsd-signature-type">GeoPackage</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>String or instance of Geopackage to use</p>
+									</div>
+								</li>
+								<li>
+									<h5>tableName: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Name of the main Geometry Table</p>
+									</div>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> progressCallback: <span class="tsd-signature-type">Function</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">GeoPackage</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<p>Promise of a GeoPackage</p>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="createoropengeopackage" class="tsd-anchor"></a>
+					<h3>create<wbr>OrOpen<wbr>Geo<wbr>Package</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">create<wbr>OrOpen<wbr>Geo<wbr>Package<span class="tsd-signature-symbol">(</span>geopackage<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">GeoPackage</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span>, options<span class="tsd-signature-symbol">: </span><a href="../interfaces/kmlconverteroptions.html" class="tsd-signature-type">KMLConverterOptions</a>, progressCallback<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">GeoPackage</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/ngageoint/geopackage-kml-js/blob/a8ce1ae/index.ts#L767">index.ts:767</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Determines whether to create a new file or open an existing file.</p>
+								</div>
+								<dl class="tsd-comment-tags">
+									<dt>memberof</dt>
+									<dd><p>KMLUtilities</p>
+									</dd>
+								</dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>geopackage: <span class="tsd-signature-type">GeoPackage</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>String Name or instance of a GeoPackage</p>
+									</div>
+								</li>
+								<li>
+									<h5>options: <a href="../interfaces/kmlconverteroptions.html" class="tsd-signature-type">KMLConverterOptions</a></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> progressCallback: <span class="tsd-signature-type">Function</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">GeoPackage</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<p>Promise of a GeoPackage</p>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="downloadfile" class="tsd-anchor"></a>
+					<h3>download<wbr>File</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">download<wbr>File<span class="tsd-signature-symbol">(</span>fileUrl<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, outputLocationPath<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/ngageoint/geopackage-kml-js/blob/a8ce1ae/index.ts#L176">index.ts:176</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>fileUrl: <span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5>outputLocationPath: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="getmetadatakml" class="tsd-anchor"></a>
+					<h3>get<wbr>Meta<wbr>DataKML</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Meta<wbr>DataKML<span class="tsd-signature-symbol">(</span>kmlData<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">PathLike</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Uint8Array</span>, geopackage<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">GeoPackage</span>, progressCallback<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/ngageoint/geopackage-kml-js/blob/a8ce1ae/index.ts#L585">index.ts:585</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Runs through KML and finds name for Columns and Style information. Handles Networks Links. Handles Bounding Boxes</p>
+								</div>
+								<dl class="tsd-comment-tags">
+									<dt>memberof</dt>
+									<dd><p>KMLToGeoPackage</p>
+									</dd>
+								</dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>kmlData: <span class="tsd-signature-type">PathLike</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Uint8Array</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Path to KML File or KML Data</p>
+									</div>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> geopackage: <span class="tsd-signature-type">GeoPackage</span></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> progressCallback: <span class="tsd-signature-type">Function</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<blockquote>
+								<p>} Object of the set of property name and the total Bounding Box</p>
+							</blockquote>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="setupstylekml" class="tsd-anchor"></a>
+					<h3>set<wbr>UpStyleKML</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">set<wbr>UpStyleKML<span class="tsd-signature-symbol">(</span>geopackage<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">GeoPackage</span>, tableName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, progressCallback<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">FeatureTableStyles</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/ngageoint/geopackage-kml-js/blob/a8ce1ae/index.ts#L446">index.ts:446</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Inserts style information from the KML in the GeoPackage.</p>
+								</div>
+								<dl class="tsd-comment-tags">
+									<dt>memberof</dt>
+									<dd><p>KMLToGeoPackage</p>
+									</dd>
+								</dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>geopackage: <span class="tsd-signature-type">GeoPackage</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Geopackage instance of</p>
+									</div>
+								</li>
+								<li>
+									<h5>tableName: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Name of Main Table</p>
+									</div>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> progressCallback: <span class="tsd-signature-type">Function</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">FeatureTableStyles</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<p>Promise of a Feature Table of Styles</p>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="setuptablekml" class="tsd-anchor"></a>
+					<h3>set<wbr>UpTableKML</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">set<wbr>UpTableKML<span class="tsd-signature-symbol">(</span>tableName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, geopackage<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">GeoPackage</span>, properties<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Set</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span>, boundingBox<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">BoundingBox</span>, progressCallback<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">GeoPackage</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/ngageoint/geopackage-kml-js/blob/a8ce1ae/index.ts#L402">index.ts:402</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Takes in KML and the properties of the KML and creates a table in the geopackage folder.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>tableName: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>name the Database table will be called</p>
+									</div>
+								</li>
+								<li>
+									<h5>geopackage: <span class="tsd-signature-type">GeoPackage</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>file name or GeoPackage object</p>
+									</div>
+								</li>
+								<li>
+									<h5>properties: <span class="tsd-signature-type">Set</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>columns name gotten from getMetaDataKML</p>
+									</div>
+								</li>
+								<li>
+									<h5>boundingBox: <span class="tsd-signature-type">BoundingBox</span></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> progressCallback: <span class="tsd-signature-type">Function</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Passed the current status of the function.</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">GeoPackage</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<p>Promise of a GeoPackage</p>
+						</li>
+					</ul>
+				</section>
+			</section>
+		</div>
+		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class="globals  ">
+						<a href="../globals.html"><em>Globals</em></a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+				</ul>
+				<ul class="current">
+					<li class="current tsd-kind-class">
+						<a href="kmltogeopackage.html" class="tsd-kind-icon">KMLTo<wbr>Geo<wbr>Package</a>
+						<ul>
+							<li class=" tsd-kind-constructor tsd-parent-kind-class">
+								<a href="kmltogeopackage.html#constructor" class="tsd-kind-icon">constructor</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="kmltogeopackage.html#hasmultigeometry" class="tsd-kind-icon">has<wbr>Multi<wbr>Geometry</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="kmltogeopackage.html#hasstyles" class="tsd-kind-icon">has<wbr>Styles</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="kmltogeopackage.html#iconmap" class="tsd-kind-icon">icon<wbr>Map</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="kmltogeopackage.html#iconmappair" class="tsd-kind-icon">icon<wbr>Map<wbr>Pair</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="kmltogeopackage.html#iconrowmap" class="tsd-kind-icon">icon<wbr>Row<wbr>Map</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="kmltogeopackage.html#iconurlmap" class="tsd-kind-icon">icon<wbr>Url<wbr>Map</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="kmltogeopackage.html#numberofgroundoverlays" class="tsd-kind-icon">number<wbr>OfGround<wbr>Over<wbr>Lays</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="kmltogeopackage.html#numberofplacemarks" class="tsd-kind-icon">number<wbr>OfPlacemarks</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="kmltogeopackage.html#properties" class="tsd-kind-icon">properties</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="kmltogeopackage.html#stylemap" class="tsd-kind-icon">style<wbr>Map</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="kmltogeopackage.html#stylemappair" class="tsd-kind-icon">style<wbr>Map<wbr>Pair</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="kmltogeopackage.html#stylerowmap" class="tsd-kind-icon">style<wbr>Row<wbr>Map</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="kmltogeopackage.html#styleurlmap" class="tsd-kind-icon">style<wbr>Url<wbr>Map</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="kmltogeopackage.html#zipfilemap" class="tsd-kind-icon">zip<wbr>File<wbr>Map</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="kmltogeopackage.html#_calculatetrueextentforfeaturetable" class="tsd-kind-icon">_calculate<wbr>True<wbr>Extent<wbr>For<wbr>Feature<wbr>Table</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="kmltogeopackage.html#_updateboundingboxforfeaturetable" class="tsd-kind-icon">_update<wbr>Bounding<wbr>Box<wbr>For<wbr>Feature<wbr>Table</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="kmltogeopackage.html#addkmldatatogeopackage" class="tsd-kind-icon">addKMLData<wbr>ToGeo<wbr>Package</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="kmltogeopackage.html#convert" class="tsd-kind-icon">convert</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="kmltogeopackage.html#convertkmlorkmztogeopackage" class="tsd-kind-icon">convertKMLOrKMZTo<wbr>Geopackage</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="kmltogeopackage.html#convertkmltogeopackage" class="tsd-kind-icon">convertKMLTo<wbr>Geo<wbr>Package</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="kmltogeopackage.html#convertkmztogeopackage" class="tsd-kind-icon">convertKMZTo<wbr>Geo<wbr>Package</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="kmltogeopackage.html#createoropengeopackage" class="tsd-kind-icon">create<wbr>OrOpen<wbr>Geo<wbr>Package</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="kmltogeopackage.html#downloadfile" class="tsd-kind-icon">download<wbr>File</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="kmltogeopackage.html#getmetadatakml" class="tsd-kind-icon">get<wbr>Meta<wbr>DataKML</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="kmltogeopackage.html#setupstylekml" class="tsd-kind-icon">set<wbr>UpStyleKML</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="kmltogeopackage.html#setuptablekml" class="tsd-kind-icon">set<wbr>UpTableKML</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="after-current">
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer class="with-border-bottom">
+	<div class="container">
+		<h2>Legend</h2>
+		<div class="tsd-legend-group">
+			<ul class="tsd-legend">
+				<li class="tsd-kind-module"><span class="tsd-kind-icon">Module</span></li>
+				<li class="tsd-kind-object-literal"><span class="tsd-kind-icon">Object literal</span></li>
+				<li class="tsd-kind-variable"><span class="tsd-kind-icon">Variable</span></li>
+				<li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
+				<li class="tsd-kind-function tsd-has-type-parameter"><span class="tsd-kind-icon">Function with type parameter</span></li>
+				<li class="tsd-kind-index-signature"><span class="tsd-kind-icon">Index signature</span></li>
+				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
+				<li class="tsd-kind-type-alias tsd-has-type-parameter"><span class="tsd-kind-icon">Type alias with type parameter</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
+				<li class="tsd-kind-enum-member"><span class="tsd-kind-icon">Enumeration member</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-enum"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-enum"><span class="tsd-kind-icon">Method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
+				<li class="tsd-kind-interface tsd-has-type-parameter"><span class="tsd-kind-icon">Interface with type parameter</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-interface"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-interface"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-index-signature tsd-parent-kind-interface"><span class="tsd-kind-icon">Index signature</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
+				<li class="tsd-kind-class tsd-has-type-parameter"><span class="tsd-kind-icon">Class with type parameter</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class"><span class="tsd-kind-icon">Accessor</span></li>
+				<li class="tsd-kind-index-signature tsd-parent-kind-class"><span class="tsd-kind-icon">Index signature</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static property</span></li>
+				<li class="tsd-kind-call-signature tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static method</span></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<div class="container tsd-generator">
+	<p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p>
+</div>
+<div class="overlay"></div>
+<script src="../assets/js/main.js"></script>
+<script>if (location.protocol == 'file:') document.write('<script src="../assets/js/search.js"><' + '/script>');</script>
+</body>
+</html>
